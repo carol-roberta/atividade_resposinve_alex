@@ -1,0 +1,53 @@
+:root {
+    --branco-principal: #000000;
+    --cinza-secundario: #000000;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #ffffff;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 350px;
+    margin: 0 auto; /* Isso centraliza a imagem horizontalmente */
+    display: block;
+}
+.principal {
+        background-image: url("img/Background.png");
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.paginacao li{
+    list-style-type:none;
+    background-color: rgba(148, 189, 250, 0.774);
+    border: 0.1px solid;
+    border-color: rgb(134, 134, 134);
+    padding: 3px 3px;
+    text-decoration: none;
+    font-family: 'arial black';
+    font-size: 25px;
+    float: left;
+    
+}
+
+.paginacao li:hover{
+    background-color: rgb(160, 159, 159);
+}
+
+#titulo{
+    text-align: center;
+    margin-bottom: 30px;
+}
